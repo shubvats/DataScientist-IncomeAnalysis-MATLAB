@@ -1,0 +1,5 @@
+function sal=comp(b,c)
+%function to calculate value of income after interest deduction
+for i=1:7
+sal(i)=c(i)+(b(i)*c(i));
+end

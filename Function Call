@@ -1,0 +1,6 @@
+function r=calci(a)
+
+%function to calculate value of monthly interest
+for i=1:7
+r(i)=(1+a(i)/100)^(1/12)-1;
+end
